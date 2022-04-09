@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+
+        <big><b>PYTHON PROGRAMMING</b></big>
+
+    </header>
+
+    <main>
+        <hr>
+        <h4>Basic Concepts</h4>
+        <hr>
+
+        <h1>2. Conditionals</h1>
+
+        <p>
+            Conditionals are expressions that evaluate to either true or false.
+            <br>
+            <h3>if else:</h3>
+
+            <p>
+
+                Ex:  
+                <pre>
+                if price < 500 :
+                    print("i will buy it")
+                else :
+                    print("i won't buy it")
+
+                </pre>
+
+            In the example above: if the price is less than 500, then print "i will buy it". if the price is not less than 500, then print "i won't buy it". 
+
+            <br>
+            <pre>
+                if price < 500 :               -- if this condition is true
+                    print("i will buy it")     -- then do this.
+                else :                         -- if above condition is false
+                    print("i won't but it")    -- then do this.
+            </pre>
+
+            **if else can be used to make conditions and making decisions.
+
+        
+        <h3>Code Indentation</h3>
+
+        <p>
+            If something is under something else, we need to indant that.
+            <br>
+            Ex: The allignment of the replies of a comment on a Facebook post. The replies goes a little bit to the right side of the actual comment. So, we can notice that it's a reply to that comment.(Illustrated below)
+            <img src="C:\Users\newuser\Desktop\PythonPlayground\Notes\Recources\images.png" alt="comments pic" width="350px">
+            <br>
+            
+
+        Example code:
+          <pre>
+              price = 7
+              if price < 10:
+                  print("i want that food")
+          </pre>
+          In the above code we want to execute the "print" command when the "if" condition is true. We have to indent the third line. That's how Python understands to execute.
+          <br>
+          **If you don't indent the line, you will get an Indentation error.
+          <br>
+          **If you have multiple lines inside the "if" block, all the lines need to be indented and the indentation has to be same.
+          <br>
+          **Anything indented is called a code block. Like the "if" block on the above example.
+        </p>
+
+        <h3>Equal or Not</h3>
+
+        <p>
+
+        1) To compare something smaller or less than, we use "less than"(<) sign.
+        <br>
+        2) To compare something bigger or greater than, we use " greater than" (>) sign.
+        <br>
+        3) To compare exact equal, we use two "equal" (==) sign.
+        <br>
+        **A single equal(=) is used to assign a value to a variable. Don't get confused.
+        <br>
+        4) To compare not equal, we use "not equal" (!=) sign.
+
+        </p>
+
+        <h3>Adding more conditions</h3>
+
+        <p>
+     1) To add more conditions to an "if else" statement, we need to add a "and" keyword in between the conditions in the first line.
+
+     <br>
+     Example Code:
+
+     <pre>
+    salary = 5700
+    vackation days = 23
+
+    if salary > 5000 and vackation days > 40 :
+        print("I will take this job")
+    else :
+        print("This job sucks! Give it to him")
+     </pre>
+     2) To combine conditions we can use "or" . In this case only one condition has to be true in an if statement.
+     <br>
+     Ex: 
+    <pre>
+    if time == 5AM or time == 6AM:
+        print("GOOD MORNING")
+    </pre>
+        </p>
+
+        <h3>elif :</h3>
+
+        <p>
+The "elif" condition is used to include multiple conditional expressions after the condition or between the "if" and "else" condition.
+<br>
+Example code:
+<pre>
+    price = 100
+
+    if price > 100 :
+        print("price is greater than 100")
+    elif price == 100 :
+        print("price is 100")
+    elif price < 100 :
+        print("price is less than 100")
+
+Output:- price is 100
+
+</pre>
+<hr>
+        </p>
+
+    </main>
+
+<footer>
+
+    <a href="C:\Users\newuser\Desktop\PythonPlayground\Notes\Recources\Variables.html">Previous<< Variables</a>
+    <br>
+    <a href="C:\Users\newuser\Desktop\PythonPlayground\Notes\Index.html">Home</a>
+    <br>
+    <a href="C:\Users\newuser\Desktop\PythonPlayground\Notes\Recources\Input.html">Next>>Input</a>
+
+</footer>
+</body>
+</html>
